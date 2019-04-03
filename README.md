@@ -21,8 +21,8 @@ Every task:
 - Create separate branch for the solution. Name of the branch should be the same as name of your channel in slack. <br/> e.g. `git checkout -b fs_on_apr19_sasha`
 - Run `npm install` to install dependencies
 - Implement the solution inside function scope in `src/<task_name>.js`
-- Make sure the solution works. Run tests (`npm run test`)
 - Make sure the code is clean. Run eslint (`npm run lint`)
+- Make sure the solution works. Run tests (`npm run test`)
 - Push code to the repository in created branch<br/> `git push origin <branch_name>`
 - Create `Pull Request` from forked repo (`<branch_name>`) to original repo (`master`)
 - Add your coach / TA to reviewers and send them a link of created `PR`
