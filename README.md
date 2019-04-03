@@ -25,7 +25,7 @@ Every task:
 - Make sure the solution works. Run tests (`npm run test`)
 - Push code to the repository in created branch<br/> `git push origin <branch_name>`
 - Create `Pull Request` from forked repo (`<branch_name>`) to original repo (`master`)
-- Add your coach / TA to reviewers and send them a link of created `PR`
+- Add your coach / TA to reviewers and send them a link to created `PR`
 
 ## Scripts
 - `npm run test` - run tests specified in `<task_name>.test.js`
