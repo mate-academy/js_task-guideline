@@ -9,6 +9,7 @@ Every task:
 
 - `NodeJS`, `npm` [download](https://nodejs.org/en/) or [read installation guide](https://nodejs.org/en/download/package-manager/)
 - `git` [download](https://git-scm.com/downloads) or [read installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Use our simplified 
 
 ## Learn before writing solution
 
@@ -22,6 +23,7 @@ Every task:
 - Run `npm install` to install dependencies
 - Implement the solution inside function scope in `src/<task_name>.js`
 - Make sure the code is clean. Run eslint (`npm run lint`)
+- Follow [the simplified styleguide](https://standardjs.com/rules.html) to pass this step
 - Make sure the solution works. Run tests (`npm run test`)
 - Save the solution <br/>
    ```
