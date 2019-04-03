@@ -1,9 +1,11 @@
 # Guideline how to implement solution for JS tasks
 
+[Video guide](https://youtu.be/ERZKNGpOsvk)
+
 Every task:
 - Includes `eslint`
 - Includes `pre-commit` hooks (eslint)
-- Includes `ci` (travis-ci) 
+- Includes `ci` (travis-ci)
 
 ## Requirements
 
