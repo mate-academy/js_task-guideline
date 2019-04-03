@@ -22,8 +22,14 @@ Every task:
 - Run `npm install` to install dependencies
 - Implement the solution inside function scope in `src/<task_name>.js`
 - Make sure the code is clean. Run eslint (`npm run lint`)
+- Follow [the simplified styleguide](https://standardjs.com/rules.html) to pass this step
 - Make sure the solution works. Run tests (`npm run test`)
-- Push code to the repository in created branch<br/> `git push origin <branch_name>`
+- Save the solution <br/>
+   ```
+   git add .
+   git commit -m 'Solution'
+   ```
+- And push your branch to the repo<br/> `git push origin <branch_name>`
 - Create `Pull Request` from forked repo (`<branch_name>`) to original repo (`master`)
 - Add your coach / TA to reviewers and send them a link to created `PR`
 
