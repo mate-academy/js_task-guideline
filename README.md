@@ -24,7 +24,7 @@ Every task:
 - Run `npm install` to install dependencies
 - Implement the solution inside function scope in `src/<task_name>.js`
 - Make sure the code is clean. Run eslint (`npm run lint`)
-- Follow [the simplified styleguide](https://standardjs.com/rules.html) to pass this step
+- Follow [the simplified styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified) to pass this step
 - Make sure the solution works. Run tests (`npm run test`)
 - Save the solution <br/>
    ```
