@@ -1,40 +1,51 @@
 # Guideline how to implement solution for JS tasks
+- Watch [video guide](https://youtu.be/ERZKNGpOsvk)
 
-[Video guide](https://youtu.be/ERZKNGpOsvk)
+## Prepare the project
+1. Fork the repo (Github repository)
+1. Clone the forked repo
+    ```
+    git clone the-link-from-your-forked-repo
+    ```
+    - You can get the link by clicking the `Clone or download` button in your repo
+1. Open the project folder in your IDE
+1. Open a terminal in the project folder
+1. Create a branch for the solution and switch on it
+    ```
+    git checkout -b develop
+    ```
+    - You can use any other name instead of `develop`
+1. Run `npm install` (or just `npm i`) to install the dependencies
 
-Every task:
-- Includes `eslint`
-- Includes `pre-commit` hooks (eslint)
-- Includes `ci` (travis-ci)
+## Implement the solution
+1. Implement the solution within a function in `src/<task_name>.js`
+    ![Where to write a solution](./assets/where-to-write-a-solution.png)
+1. Run `npm run test` (or just `npm test`) to check if your solution is correct
+    - If at least one test fails fix the solution and check again.
+1. Run `npm run lint` to see if your code follows the [the simplified styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
+    - If you see some errors fix them and check again
+1. Save the solution
+    ```
+    git commit -am 'Solution'
+    ```
+    - code style is automatically checked again when you `commit` the code
+    - Fix all the errors before committing again
+1. Push the solution to the repo
+    ```
+    git push origin develop
+    ```
+    - If you created another branch (not `develop`) use its name instead
+    - The tests are run again before the push to ensure the solution still works
+    - Fix all the test and commit before pushing again
+    
+## Create a Pull Request (PR)
+1. Open your repo on Github and create a `Pull Request` (PR)
+    ![New PR button](./assets/new-pull-request-button.png)
+1. Select your branch in the dropdown
+    ![Create PR button](./assets/create-pull-request-button.png)
+1. Verify the PR details and code (scroll down to see it) and confirm
+    ![Create PR confirmation](./assets/create-pull-request-confirmation.png)
 
-## Requirements
-
-- `NodeJS`, `npm` [download](https://nodejs.org/en/) or [read installation guide](https://nodejs.org/en/download/package-manager/)
-- `git` [download](https://git-scm.com/downloads) or [read installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-## Learn before writing solution
-
-- [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
-
-## Workflow
-
-- Fork the repository with task
-- Clone forked repository<br/> `git clone git@github.com:<user_name>>/<task_repository>.git`
-- Create separate branch for the solution. Name of the branch should be the same as name of your channel in slack. <br/> e.g. `git checkout -b fs_on_apr19_sasha`
-- Run `npm install` to install dependencies
-- Implement the solution inside function scope in `src/<task_name>.js`
-- Make sure the code is clean. Run eslint (`npm run lint`)
-- Follow [the simplified styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified) to pass this step
-- Make sure the solution works. Run tests (`npm run test`)
-- Save the solution <br/>
-   ```
-   git add .
-   git commit -m 'Solution'
-   ```
-- And push your branch to the repo<br/> `git push origin <branch_name>`
-- Create `Pull Request` from forked repo (`<branch_name>`) to original repo (`master`)
-- Add your coach / TA to reviewers and send them a link to created `PR`
-
-## Scripts
-- `npm run test` - run tests specified in `<task_name>.test.js`
-- `npm run lint` - run eslint
+## If a mentor requested changes on your PR
+1. Repeat [Implement the solution](#implement-the-solution) section
+1. PR is updated automatically after a push to your branch on Github
