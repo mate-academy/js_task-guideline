@@ -1,7 +1,7 @@
 # Guideline how to implement solution for JS tasks
 - Watch [The video guide](https://youtu.be/ERZKNGpOsvk)
 
-## Workflow
+## Prepare the project
 1. Fork the repo (Github repository)
 1. Clone the forked repo
     ```
@@ -16,6 +16,8 @@
     ```
     - You can use any other name instead of `develop`
 1. Run `npm install` (or just `npm i`) to install the dependencies
+
+## Implement the solution
 1. Implement the solution within a function in `src/<task_name>.js`
     ![Where to write a solution](./assets/where-to-write-a-solution.png)
 1. Run `npm run test` (or just `npm test`) to check if your solution is correct
@@ -35,9 +37,15 @@
     - If you created another branch (not `develop`) use its name instead
     - The tests are run again before the push to ensure the solution still works
     - Fix all the test and commit before pushing again
-1. Open your repo on Github and create a `Pull Request`
+    
+## Create a Pull Request (PR)
+1. Open your repo on Github and create a `Pull Request` (PR)
     ![New PR button](./assets/new-pull-request-button.png)
 1. Select your branch in the dropdown
     ![Create PR button](./assets/create-pull-request-button.png)
 1. Verify the PR details and code (scroll down to see it) and confirm
     ![Create PR confirmation](./assets/create-pull-request-confirmation.png)
+
+## If a mentor requested changes on your PR
+1. Repeat [Implement the solution](#implement-the-solution) section
+1. PR is updated automatically after a push to your branch on Github
