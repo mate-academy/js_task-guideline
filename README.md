@@ -1,5 +1,5 @@
 # Guideline how to implement solution for JS tasks
-- Watch [video guide](https://youtu.be/ERZKNGpOsvk)
+- Watch [video guide](https://youtu.be/Zv7jC4bRjOw)
 
 ## Prepare the project
 1. Fork the repo (Github repository)
