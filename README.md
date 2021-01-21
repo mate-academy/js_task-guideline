@@ -50,3 +50,6 @@
 ## If a mentor requested changes on your PR
 1. Repeat [Implement the solution](#implement-the-solution) section
 1. PR is updated automatically after a push to your branch on Github
+
+> After updating your PR - click on re-request button at PR page IF YOU NEED ADDITIONAL REVIEW OF YOUR CODE.
+![Image of re-request button](https://user-images.githubusercontent.com/38065883/104471439-89929200-55c3-11eb-824a-596bfb8aa246.png)
