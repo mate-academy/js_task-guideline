@@ -1,6 +1,6 @@
 # Guideline how to implement solution for JS tasks
 - Watch [video guide](https://youtu.be/Zv7jC4bRjOw)
-- Learn eslint rules from [the simplified styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
+- Learn eslint rules from [the simplified styleguide](https://github.com/mate-academy/style-guides/blob/master/javascript.md)
 
 ## Prepare the project
 1. Fork the repo (Github repository)
