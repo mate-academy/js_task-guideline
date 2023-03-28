@@ -1,5 +1,8 @@
 # Guideline how to implement solution for JS tasks
-- Watch [video guide](https://youtu.be/Zv7jC4bRjOw)
+- Watch the videos in the topic Solving Tasks on GitHub:
+  - in [English](https://mate.academy/en-gb/learn/javascript-advanced-en/solving-tasks-on-github-en?section=video)
+  - in [Polish](https://mate.academy/pl/learn/javascript-advanced-pl/rozwiazywanie-zadan-github?section=video)
+  - in [Ukrainian](https://mate.academy/learn/javascript-advanced/solving-tasks-on-github)
 - Learn eslint rules from [the simplified styleguide](https://github.com/mate-academy/style-guides/blob/master/javascript.md)
 
 ## Prepare the project
