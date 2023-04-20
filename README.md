@@ -28,9 +28,13 @@
     - If at least one test fails fix the solution and check again.
 1. Run `npm run lint` to see if your code follows the [the simplified styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
     - If you see some errors fix them and check again
+1. Add files to index
+    ```
+    git add src/<task_name>.js
+    ```
 1. Save the solution
     ```
-    git commit -am 'Solution'
+    git commit -m 'Solution'
     ```
     - code style is automatically checked again when you `commit` the code
     - Fix all the errors before committing again
