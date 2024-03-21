@@ -23,7 +23,7 @@ Follow the next steps when solving JS tasks on Github
     ![Where to write a solution](./assets/where-to-write-a-solution.png)
 1. Run `npm run test` (or just `npm test`) to check if your solution is correct
     - If at least one test fails fix the solution and check again.
-1. Run `npm run lint` to see if your code follows the [the simplified styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
+1. Run `npm run lint` to see if your code follows the best code style practices
     - If you see some errors fix them and check again
 1. Add files to index
     ```
